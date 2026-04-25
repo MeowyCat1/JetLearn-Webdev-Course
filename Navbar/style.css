@@ -4,7 +4,7 @@
     display: inline-block;
     background-color: white;
     border-bottom: 2px black solid;
-    width: 100%;
+    width: 100vw;
     padding: 10px;
     text-wrap: nowrap;
 }
@@ -23,10 +23,10 @@
 }
 
 .longimg {
-    height: 100%;
+    height: 100vh;
 }
 .wideimg {
-    width: 100%;
+    width: 100vw;
 }
 
 p {
@@ -36,4 +36,21 @@ p {
 
 h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroimg {
+    background-image: url("worldfood.jpg");
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.herotext {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
 }
