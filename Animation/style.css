@@ -14,10 +14,51 @@
     width: 100vw;
     height: 30vh;
     background-color: darkgrey;
+    position: relative;
 }
 .lines {
     border: 1vh white dashed;
     height: 0;
     position: relative;
     top: 50%;
+}
+
+.car, .fastcar {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    animation-fill-mode: forwards;
+}
+.car {
+    top: 10%;
+    animation-name: caranimation;
+    animation-timing-function: cubic-bezier(0.14, 0.16, 0, 0.95);
+    animation-duration: 5s;
+}
+
+.fastcar {
+    top: 50%;
+    animation-name: fastcaranimation;
+    animation-timing-function: cubic-bezier(0.13, -0.01, 0, 1);
+    animation-duration: 5s;
+}
+
+@keyframes caranimation {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 50%;
+    }
+    
+}
+
+@keyframes fastcaranimation {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 80%;
+    }
+    
 }
