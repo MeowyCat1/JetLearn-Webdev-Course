@@ -1,0 +1,12 @@
+#smiley {
+    width: 50vw;
+    height: auto;
+}
+.buttondiv button {
+    background-color: yellow;
+    border: 1px dashed;
+}
+
+.buttondiv button:active {
+    background-color: orange;
+}
