@@ -1,0 +1,29 @@
+.row {
+    display: inline;
+}
+.tileimg {
+    width: 33%;
+    height: 25vh;
+    object-fit: cover;
+}
+#currentimage {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+@media (min-width: 700px) and (max-width:900px) {
+    #currentimage {
+        height: 70vh;
+    }
+}
+
+@media (min-width:901px) {
+    #currentimage {
+        height: 80vh;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
