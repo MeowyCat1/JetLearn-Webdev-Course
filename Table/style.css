@@ -1,0 +1,12 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th {
+    border-left: 1pt grey solid;
+    border-right: 1pt grey solid;
+    border-bottom: 2pt black solid;
+    background-color: lightgray;
+}
+td {
+    border: 1pt gray solid;
+}
